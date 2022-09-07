@@ -17,12 +17,14 @@
 
 html {
   font-size: 16px;
+  text-align: left;
 }
 
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  font-family: 'Roboto', sans-serif;
 
   font-size: 1rem;
   line-height: 1.5rem;
@@ -39,6 +41,23 @@ video {
   vertical-align: text-top;
 }
 
+nav {
+  padding-left: 7px;
+  padding-top: 20px;
+}
+
+.description  {
+  padding-left: 7px;
+  padding-right: 77px;
+  padding-bottom: 47px;
+}
+
+h1 {
+  padding-left: 7px;
+  padding-top: 53px;
+  padding-bottom: 10px;
+  font-size: 30px;
+}
 /* ====================================
 // base rules
 // ==================================== */
