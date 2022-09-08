@@ -21,15 +21,9 @@ html {
 }
 
 body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
   font-family: 'Roboto', sans-serif;
-
-  font-size: 1rem;
-  line-height: 1.5rem;
-  max-width: 406px;
-  /* font-size: 16px; */
+  width: 414px; 
+  font-size: 16px;
 }
 
 a {
@@ -60,6 +54,7 @@ h1 {
   padding-top: 53px;
   padding-bottom: 10px;
   font-size: 30px;
+  font-weight: 400;
 }
 
 main div {
@@ -69,6 +64,7 @@ main div {
 
 .view-floorplan {
   padding-bottom: 20px;
+  padding-top: 10px;
 }
 
 .text {
@@ -87,7 +83,21 @@ main div {
 footer {
   background-color: black;
   color: white;
+  font-size: 12px;
+  padding-top: 30px;
+  padding-left: 7px;
+  padding-bottom: 38px;
 }
+
+.footer-text-size {
+  font-size: 10px;
+  padding-top: 22px;
+}
+
+main, img {
+  width: 100%;
+}
+
 /* ====================================
 // base rules
 // ==================================== */
