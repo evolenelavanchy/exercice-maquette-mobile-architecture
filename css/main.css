@@ -71,6 +71,7 @@ main div {
   padding-top: 54px;
   padding-right: 77px;
   padding-bottom: 56px;
+  line-height: 26px;
 }
 
 .back-to-projects {
@@ -96,6 +97,10 @@ footer {
 
 main, img {
   width: 100%;
+}
+
+.info {
+  margin-bottom: 14px;
 }
 
 /* ====================================
